@@ -9,7 +9,7 @@ spring:
         git:
 #          uri: ${GIT_URL}
           uri: file://${CONFIG_REPO}/
-          searchPaths: ${APP_NAME}
+          searchPaths: ${SEARCH_PATH}
 
 logging:
   level:
